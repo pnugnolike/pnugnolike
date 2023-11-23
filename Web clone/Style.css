@@ -1,0 +1,359 @@
+body {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #646464;
+    background-color: #fff;
+}
+
+/*  */
+
+.donation-container {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #F7931A;
+    width: 100%;
+    box-sizing: border-box;
+    height: 55px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* calss head  */
+
+.head {
+    background: #ffffff;
+}
+
+div {
+    display: block;
+}
+
+
+
+.head>div {
+    display: flex;
+    box-pack: center;
+    justify-content: center;
+    box-align: center;
+    align-items: center;
+    max-width: 1230px;
+    padding: 15px 30px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 100;
+    width: 1298px;
+    height: 59px;
+}
+
+/* logo */
+
+.logo {
+    margin-right: auto;
+}
+
+a {
+    color: #3490E6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a img,
+a:link img,
+a:visited img,
+a:active img {
+    border: 0;
+}
+
+.logo img {
+    width: 132px;
+    height: 29px;
+    vertical-align: middle;
+}
+
+
+/* Navbar */
+
+.menusimple {
+    position: static;
+    margin: 0 auto 0 0;
+    display: flex;
+    
+}
+
+
+ul,
+ol {
+    padding-left: 0px;
+}
+
+ul {
+    display: flex;
+}
+
+.menusimple li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+p,
+li,
+table {
+    line-height: 1.5em;
+}
+
+.menusimple>li {
+    margin-left: 30px;
+}
+
+.menusimple>li a,
+.menusimple>li a:active,
+.menusimple>li a:visited,
+.menusimple>li a:link {
+    color: #13161F;
+}
+
+.is-expand {
+    position: relative;
+    padding-right: 18px;
+}
+
+.menusimple>li ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    min-width: 120%;
+    padding: 0;
+    margin: 0;
+    right: 0;
+}
+
+
+.menusimple>li>ul li {
+    margin: 0;
+    display: block;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.menusimple>li>ul>li a {
+    font-size: 93.75%;
+    padding: 6px 10px 3px 15px;
+}
+
+.menusimple>li a {
+    display: block;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 93.75%;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.is-expand img{
+    margin-left: 8px;
+    margin-bottom: 2px;
+}
+.menusimple :hover ul{
+    display: block;
+}
+
+.menusimple>li>ul>li:hover{
+    background-color: #dfdfdf;
+}
+
+.lang {
+    position: relative;
+    padding-right: 13px;
+}
+
+.lang {
+    margin-left: 30px;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+
+.lang, .lang li, .lang ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.lang img{
+    margin-left: 8px;
+    margin-bottom: 2px;
+}
+
+.lang li a, .lang li a:link, .lang li a:visited, .lang li a:active {
+    font-size: 93.75%;
+    color: #000;
+}
+
+.lang li ul {
+    display: none;
+    right: 0;
+    position: absolute;
+    background-color: #fff;
+    padding: 13px 0;
+    border: 1px solid #dfdfdf;
+    white-space: nowrap;
+    z-index: 100;
+}
+
+.lang :hover ul{
+    display: block;
+}
+
+.lang>li>ul>li:hover{
+    background-color: #dfdfdf;
+}
+
+.lang>li>ul>li a {
+    font-size: 93.75%;
+    padding: 6px 45px 3px 35px;
+}
+
+/*  */
+
+.breadcrumbs {
+    font-size: 75%;
+    background: #13161f;
+    color: #929396;
+    font-size: 81.25%;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.content {
+    position: relative;
+    text-align: justify;
+    background-color: #fff;
+    min-height: 400px;
+}
+
+.mainhero {
+    padding: 130px 30px 50px;
+    background: #fff;
+}
+
+.hero-container {
+    position: relative;
+    padding: 0 40px;
+}
+
+.mainsummary {
+    max-width: 770px;
+    margin: 0 auto 45px;
+    font-size: 321.5%;
+    color: #1C1F30;
+}
+
+.mainsummary {
+    text-align: center;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-bright:active {
+    background: #F58A08;
+}
+
+.btn-bright:hover {
+    background: #F9A136;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+.btn-bright {
+    background: #FF9500;
+    color: #fff;
+}
+
+.btn-home {
+    width: 290px;
+    height: 55px;
+}
+
+.btn {
+    display: inline-block;
+    max-width: 100%;
+    padding: 16px 25px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 100%;
+    color: #fff;
+    border-radius: 1px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn:not(:first-child) {
+    margin-left: 6px;
+}
+
+.btn-light {
+    padding: 15px 25px;
+    color: #FF7E00;
+    background: #fff;
+    border: 1px solid #FF7E00;
+}
+
+.btn:not(:first-child) {
+    margin-left: 6px;
+}
+
+/*  */
+
+.mainvideo {
+    margin: 80px auto 0;
+    text-align: center;
+}
+.mainvideo-bt {
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 0 0 65px;
+    background: url(https://bitcoin.org/img/icons/play-btn.svg?1528322191);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
