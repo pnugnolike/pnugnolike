@@ -1,0 +1,80 @@
+
+.vertical>img>.a {
+    vertical-align: baseline;
+}
+
+.vertical>img>.b {
+    vertical-align: text-top;
+}
+
+.vertical>img>.c {
+    vertical-align: text-bottom;
+}
+
+.vertical>img>.d {
+    vertical-align: sub;
+}
+
+.vertical>img>.e {
+    vertical-align: super;
+}
+
+p.a {
+    white-space: nowrap;
+}
+
+p.b {
+    white-space: normal;
+}
+
+p.c {
+    white-space: pre;
+    left: 10px;
+}
+
+.z-index img{
+    position: relative;
+    left: 10px;
+    z-index: 0;
+}
+
+.z-index p{
+    position: relative;
+    bottom: 50px;
+}
+
+
+h2{
+    color: black;
+}
+
+.z-index>h1{
+    color: black;
+    text-align: left;
+}
+
+div.transformrotate {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: rotate(20deg);
+  }
+  
+  div.transformskewY {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: skewY(20deg);
+  }
+  
+  div.transformscaleY {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: scaleY(1.5);
+  }
+
+  .transform>h1{
+    color: black;
+    text-align: left;
+  }
